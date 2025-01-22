@@ -1,0 +1,79 @@
+/* User List Styling */
+.user-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .user-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer; /* Make the name clickable */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .user-card:hover {
+    background-color: #e0e0e0; /* Change background on hover */
+    color: #007bff; /* Highlight color on hover */
+  }
+  
+  .user-name {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .user-email {
+    color: #777;
+  }
+  
+  /* When clicked, add active styling */
+  .user-card.active {
+    background-color: #d1ecf1; /* Light blue for active state */
+    color: #0c5460; /* Darker text color */
+  }
+  
+  .search-bar input {
+    padding: 8px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .add-user-form {
+    margin-top: 20px;
+  }
+  
+  .goal-summary {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .goal-summary-card {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .goal-summary-card h3 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .goal-summary-card p {
+    font-size: 16px;
+    color: #555;
+  }
+  

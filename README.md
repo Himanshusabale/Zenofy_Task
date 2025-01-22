@@ -1,5 +1,7 @@
 # TASK 1    :   React User Dashboard with Goal Tracking
 
+**Deployed Link**   :   https://ephemeral-sfogliatella-59f13d.netlify.app/
+
 This is a simple React.js project that implements a user dashboard with goal tracking. Users can be added, searched, and sorted, and their goals can be tracked, including marking them as "In Progress" or "Completed". The project includes features for adding users, displaying their goals, and showing a summary of goals and their completion status.
 
 ## Features

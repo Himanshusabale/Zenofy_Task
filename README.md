@@ -30,4 +30,31 @@ This is a simple React.js project that implements a user dashboard with goal tra
    npm run dev
 
 
-TASK 2  :    
+# TASK 2  :    User Onboarding Application
+
+## Overview
+
+This Spring Boot application provides RESTful APIs for user onboarding, including functionalities for user registration, authentication, and password reset. It utilizes an H2 in-memory database for data storage and follows clean coding practices with a modular structure and error handling.
+
+## Features
+
+- **Sign Up:** Endpoint for user registration.
+- **Sign In:** Endpoint for user authentication.
+- **Forgot Password:** Endpoint for password reset functionality.
+
+## Technologies Used
+
+- **Spring Boot:** Framework for building the backend application.
+- **Spring Data JPA:** For database interactions.
+- **H2 Database:** In-memory database for development and testing.
+- **Spring Security:** For authentication and authorization.
+- **JUnit:** For unit testing.
+
+## Setup and Installation
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/user-onboarding.git
+   cd user-onboarding
+ 
